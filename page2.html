@@ -11,8 +11,23 @@
      <link href="style.css" rel="stylesheet" type="text/css" />
      <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="https://kit.fontawesome.com/ecd35c5d28.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script>
+        $(window).load(function() {
+        $(".preloader").delay(5000).fadeOut("slow");
+        $("#overlayer").delay(5000).fadeOut("slow");
+        })
+     </script>
+         <script></script>
+     </head>
+     <body>
+         
+         <div id="overlayer"></div>
+     <div class="preloader">
+        <div class="loader">
+           <span class="loader-inner"></span>
+        </div>
+        <p> Loading...</p>
+     </div>
 <div class="page-web">    
     <div class="Menu" align="left "> 
   <ul> 
