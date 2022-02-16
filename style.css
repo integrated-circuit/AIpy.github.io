@@ -21,6 +21,17 @@ h2{
     color: black;
     text-decoration: underline;
 }
+h3{
+  font-family:Ubuntu, monospace;
+  font-size: large;
+  text-decoration: underline;
+  color: black;
+  display: inline-block;
+  margin: 2.5px;
+  padding: 2.5px;
+  
+
+}
 body{
     background-image: url(image/3326663.jpg);
     background-attachment: scroll;
