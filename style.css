@@ -271,7 +271,6 @@ footer {
   background-color: lightgray;
   height: auto;
   color: black;
-  background-image: url("image/footer.png");
   background-size: 100%;
   overflow: hidden;
 }
@@ -331,4 +330,11 @@ footer {
 }
 .Gravatar {
   border-radius: 50%;
+}
+.discord{
+  background-color: #7289da;
+  color: #ffffff;
+  font-size: xx-large;
+  border-radius: 10px;
+  border: #7289da;
 }
